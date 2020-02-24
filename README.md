@@ -1,5 +1,7 @@
 <p align="center"><img src="/images/c4c-x-omafra-banner.png" alt="Code for Canada Logo" style="display: block; margin: 0 auto;"></p>
 
+---
+
 \- add stuff here -
 
 <br />
