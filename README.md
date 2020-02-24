@@ -1,6 +1,28 @@
-## Jekyll Now
+<p align="center"><img src="/images/cfc-web-logo.png" alt="Code for Canada Logo" style="display: block; margin: 0 auto;"></p>
+
+# Code for Canada x OMAFRA
+
+Project updates from the partnership between Code for Canada and OMAFRA
+
+\- add stuff here -
+
+<br />
+
+# Jekyll Now
+
+Note: I've included the generic Jekyll Now README below
+
+### Code for Canada team blog quick start
+(this assumes previous knowledge of github and access to the Code for Canada github org)
+
+1. Clone [Jekyll Now](https://github.com/barryclark/jekyll-now)
+2. Create your blog's repository in the Code for Canada github org
+3. Push your Jekyll Now clone to your new repo
+4. **In your repo settings under Github Pages change source from gh-pages to master** (or don't, I'm not a cop)
+5. Follow instructions in Jekyll Now generic README below starting from step 2
 
 <details><summary>Open the Jekyll Now generic README</summary>
+  
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
