@@ -1,8 +1,4 @@
-<p align="center"><img src="/images/cfc-web-logo.png" alt="Code for Canada Logo" style="display: block; margin: 0 auto;"></p>
-
-# Code for Canada x OMAFRA
-
-Project updates from the partnership between Code for Canada and OMAFRA
+<p align="center"><img src="/images/c4c-x-omafra-banner.png" alt="Code for Canada Logo" style="display: block; margin: 0 auto;"></p>
 
 \- add stuff here -
 
