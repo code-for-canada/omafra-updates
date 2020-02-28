@@ -17,7 +17,8 @@ Note: I've included the generic Jekyll Now README below
 2. Create your blog's repository in the Code for Canada github org
 3. Push your Jekyll Now clone to your new repo
 4. **In your repo settings under Github Pages change source from gh-pages to master** (or don't, I'm not a cop)
-5. Follow instructions in Jekyll Now generic README below starting from step 2
+5. In `_config.yml` set `baseurl` (line 50) to your project name with a `/` in front (ex. this repo's `baseurl` is set to `/omafra-updates`)
+6. Follow instructions in Jekyll Now generic README below starting from step 2
 
 <details><summary>Open the Jekyll Now generic README</summary>
   
