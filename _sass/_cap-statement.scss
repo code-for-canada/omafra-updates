@@ -1,0 +1,19 @@
+.cap-statement-wrapper {
+  border-left: 2px solid #ddd;
+  color: #888;
+  font-size: 0.8rem;
+  padding-left: 20px;
+
+  p {
+    position: relative;
+  }
+
+  p:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: calc(25% - 20px);
+    right: 25%;
+    border-bottom: 1px solid #ddd;
+  }
+}
