@@ -1,5 +1,5 @@
 {% assign today = 'now' | date: '%s' %}
-{% assign published = page.date | date: '%s' %}
+{% assign published = include.post.date | date: '%s' %}
 {% assign mill_diff = today | minus: published %}
 {% assign days_diff = mill_diff | divided_by: 86400 %}
 {% assign months_diff = days_diff | divided_by: 30 %}
@@ -14,4 +14,4 @@
   {% assign date_ago = 'today' %}
 {% endif %}
 
-<div class="post-author">by {{ page.author }} &nbsp;•&nbsp; {{ date_ago }}</div>
+<div class="post-author">by {{ include.post.author }} &nbsp;•&nbsp; {{ date_ago }}</div>
