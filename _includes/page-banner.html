@@ -1,0 +1,4 @@
+{% if page.banner %}
+  {% assign banner-path = "/omafra-updates/images/" | append: page.banner %}
+  <div class="page-banner-container" style="background-image: url('{{ banner-path }}');"></div>
+{% endif %}
