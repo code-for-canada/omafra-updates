@@ -2,6 +2,8 @@
 
 ---
 
+Link to blog: https://code-for-canada.github.io/omafra-updates/
+
 \- add stuff here -
 
 <br />
