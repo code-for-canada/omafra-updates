@@ -4,13 +4,117 @@
 
 Link to blog: https://code-for-canada.github.io/omafra-updates/
 
-\- add stuff here -
+# Add a Post
+
+## Quick Start
+
+### Step 1) Create the file
+
+Navigate to the [_posts folder](https://github.com/code-for-canada/omafra-updates/tree/master/_posts) and click the `Create new file` button
+
+![Create new file button example](/omafra-updates/images/create-file-ex.png)
+
+Make sure to name the post in the format `<YYYY-MM-DD-Post-Title>.md` e.g. `2020-03-02-First-Month.md`
+
+### Step 2) Add post data
+
+At the top of the file add your post data in the format:
+
+```
+---
+layout: post
+title: <Your Post Title>
+author: <Your Full Name>
+banner: <Image File Name>
+---
+```
+e.g.
+```
+---
+layout: post
+title: First Month at OMAFRA
+author: Seyi Tayor
+banner: sprint-0-banner.png
+---
+```
+
+Don't worry! This won't appear in the post, it's only used for the blog to pull some information about the post to be displayed.
+
+### Step 3) Add your content
+
+Make sure to write your content in markdown format, I've included a link to a quick markdown guide below.
+
+https://guides.github.com/features/mastering-markdown/
+
+If you're editing your file on github.com you can click `Preview Changes` to view your post formatted in Markdown
+
+(I'll talk about adding images to your post below, it's a little fussy)
+
+### Step 4) Publish your post
+
+When your done editing on GitHub just scroll down to the bottom of the page and click `Commit Changes`
+
+It should look something like this:
+
+![Commit Changes screenshot](/omafra-updates/images/commit-ex.png)
+
+### Step 5) Check out your work!
+
+Now you can go to the blog and check out your post!
+
+The post will be availabe at `https://code-for-canada.github.io/omafra-updates/<your-post-title>`
+
+It may take a few minutes for your post to appear but don't worry, if you followed the instructions above it should be up shortly!
+
+## Add Images to Your Post
+
+What's an article without pictures? I mean, I guess it's still an article but you should add some pictures anyway!
+
+Here's how:
+
+### Step 1) Upload your image to github
+
+> If you're using an image hosted on another site you can skip straight to step 2
+
+Navigate to the [images folder](https://github.com/code-for-canada/omafra-updates/tree/master/images) and click `Upload files` right next to the `Create new file` button we saw before. Select your photo to upload and blah blah blah, you know how to upload files to stuff.
+
+> Note: Images will display at their actual size (up to a maximum width the same as the post body), make sure to edit the files so they're the size you want
+
+### Step 2) Add your image to a post
+
+We're gonna use markdown notation here to add our image so it'll look a little funny
+
+The markdown notation for images is `![<alt text that describes your image>](<https://your-image-url-here>)`
+
+To include an external image just copy and paste the full URL
+
+To include an image hosted in our `images` folder (like we added in Step 1) use the path `/omafra-updates/images/<your-file-name>`
+
+For example, to include the Code for Canada logo saved in `/images` add `![Code for Canada logo](/omafra-updates/images/c4c-web-logo.png)`
+
+You should see: ![Code for Canada logo](/omafra-updates/images/c4c-web-logo.png)
+
+## Banner Images
+
+I've added some special styling rules for banner images at the top of a post. If you want to include a banner image with your post make sure to include a banner item in your post data at the top of your file like the example below
+
+```
+---
+layout: post
+title: First Month at OMAFRA
+author: Seyi Tayor
+banner: sprint-0-banner.png
+---
+```
+For now banners must be hosted in the `images` folder and cannot be external photos
+
+Make sure to only include the file name in the post data, don't include `/omafra-updates/images/` like you would for a normal image
 
 <br />
 
 # Jekyll Now
 
-Note: I've included the generic Jekyll Now README below
+> Note: I've included the generic Jekyll Now README below
 
 ### Code for Canada team blog quick start
 (this assumes previous knowledge of github and access to the Code for Canada github org)
