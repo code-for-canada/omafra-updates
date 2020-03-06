@@ -1,19 +1,54 @@
 .logo-bar {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 
-  img {
-    height: 50px;
-    // width: 30%;
+  .logo-wrap {
+    text-align: center;
+
+    img {
+      height: 50px;
     
-    &.cap-logo {
-      height: 40px;
+      &.cap-logo {
+        height: 40px;
+      }
     }
 
     &:not(:first-child) {
-      margin-left: 30px;
+      margin-left: 20px;
+    }
+
+    @media screen and (max-width: 730px) {
+      flex-basis: 40%;
+      
+      &:nth-child(1n+3) {
+        margin-top: 20px;
+      }
+
+      &:not(:first-child) {
+        margin-left: unset;
+      }
+    }
+    
+    @media screen and (max-width: 550px) {
+      flex-basis: 100%;
+      text-align: left;
+      
+      &:not(:first-child) {
+        margin-left: 0;
+      }
+
+      img {
+        height: unset;
+        max-height: 100px;
+
+        &.cap-logo {
+          height: unset;
+          max-height: 70px;
+        }
+      }
     }
   }
 }
