@@ -90,7 +90,8 @@ To include an image hosted in our `images` folder (like we added in Step 1) use 
 
 For example, to include the Code for Canada logo saved in `/images` add `![Code for Canada logo](/omafra-updates/images/cfc-web-logo.png)`
 
-You should see: ![Code for Canada logo](/images/cfc-web-logo.png)
+You should see:
+![Code for Canada logo](/images/cfc-web-logo.png)
 
 > Note: These images won't work when you preview the post in the github editor, this is because of the way our blog is compiled when we publish.
 > In order to preview your post with images change the path to `/images/<your-file-name>`, removing the `/omafra-updates` prefix, just make sure to add it back before publishing
