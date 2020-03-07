@@ -1,6 +1,14 @@
 .page-banner-container {
   background-position: center;
   background-size: cover;
+  margin-top: -51px;
   min-height: 300px;
   width: 100%;
+
+  &.post-banner {
+    height: 200px;
+    margin-bottom: 15px;
+    margin-top: unset;
+    min-height: unset;
+  }
 }

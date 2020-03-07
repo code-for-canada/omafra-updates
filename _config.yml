@@ -9,7 +9,7 @@ name: Code for Canada x OMAFRA
 description: Project updates from the partnership between Code for Canada and OMAFRA
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/code-for-canada/omafra-updates/master/images/cfc-web-logo.png
+avatar: /omafra-updates/images/cfc-web-logo.png
 
 #
 # Flags below are optional

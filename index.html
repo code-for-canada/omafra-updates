@@ -5,15 +5,17 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+        {% include post-author.html post = post %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      {% include post-author.html post = post %}
+        {% include page-banner.html post=post %}
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+        <div class="read-more">Read More</div>
+      </a>
     </article>
   {% endfor %}
 </div>
