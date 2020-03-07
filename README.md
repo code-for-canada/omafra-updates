@@ -12,7 +12,7 @@ Link to blog: https://code-for-canada.github.io/omafra-updates/
 
 Navigate to the [_posts folder](https://github.com/code-for-canada/omafra-updates/tree/master/_posts) and click the `Create new file` button
 
-![Create new file button example](/omafra-updates/images/create-file-ex.png)
+![Create new file button example](/images/create-file-ex.png)
 
 Make sure to name the post in the format `<YYYY-MM-DD-Post-Title>.md` e.g. `2020-03-02-First-Month.md`
 
@@ -38,7 +38,7 @@ banner: sprint-0-banner.png
 ---
 ```
 
-Don't worry! This won't appear in the post, it's only used for the blog to pull some information about the post to be displayed.
+Don't worry  This won't appear in the post, it's only used for the blog to pull some information about the post to be displayed.
 
 ### Step 3) Add your content
 
@@ -56,7 +56,7 @@ When your done editing on GitHub just scroll down to the bottom of the page and 
 
 It should look something like this:
 
-![Commit Changes screenshot](/omafra-updates/images/commit-ex.png)
+![Commit Changes screenshot](/images/commit-ex.png)
 
 ### Step 5) Check out your work!
 
@@ -76,7 +76,7 @@ Here's how:
 
 > If you're using an image hosted on another site you can skip straight to step 2
 
-Navigate to the [images folder](https://github.com/code-for-canada/omafra-updates/tree/master/images) and click `Upload files` right next to the `Create new file` button we saw before. Select your photo to upload and blah blah blah, you know how to upload files to stuff.
+Navigate to the [images folder](/images) and click `Upload files` right next to the `Create new file` button we saw before. Select your photo to upload and blah blah blah, you know how to upload files to stuff.
 
 > Note: Images will display at their actual size (up to a maximum width the same as the post body), make sure to edit the files so they're the size you want
 
@@ -92,7 +92,10 @@ To include an image hosted in our `images` folder (like we added in Step 1) use 
 
 For example, to include the Code for Canada logo saved in `/images` add `![Code for Canada logo](/omafra-updates/images/c4c-web-logo.png)`
 
-You should see: ![Code for Canada logo](/omafra-updates/images/c4c-web-logo.png)
+You should see: ![Code for Canada logo](/images/c4c-web-logo.png)
+
+> Note: These images won't work when you preview the post in the github editor, this is because of the way our blog is compiled when we publish.
+> In order to preview your post with images change the path to `/images/<your-file-name>`, removing the `/omafra-updates` prefix, just make sure to add it back before publishing
 
 ## Banner Images
 
