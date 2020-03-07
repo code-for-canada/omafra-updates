@@ -10,9 +10,7 @@ Link to blog: https://code-for-canada.github.io/omafra-updates/
 
 ### Step 1) Create the file
 
-Navigate to the [_posts folder](https://github.com/code-for-canada/omafra-updates/tree/master/_posts) and click the `Create new file` button
-
-![Create new file button example](/images/create-file-ex.png)
+Navigate to the [_posts folder](https://github.com/code-for-canada/omafra-updates/tree/master/_posts) and click the `Create new file` button ![Create new file button example](/images/create-file-ex.png)
 
 Make sure to name the post in the format `<YYYY-MM-DD-Post-Title>.md` e.g. `2020-03-02-First-Month.md`
 
@@ -90,9 +88,9 @@ To include an external image just copy and paste the full URL
 
 To include an image hosted in our `images` folder (like we added in Step 1) use the path `/omafra-updates/images/<your-file-name>`
 
-For example, to include the Code for Canada logo saved in `/images` add `![Code for Canada logo](/omafra-updates/images/c4c-web-logo.png)`
+For example, to include the Code for Canada logo saved in `/images` add `![Code for Canada logo](/omafra-updates/images/cfc-web-logo.png)`
 
-You should see: ![Code for Canada logo](/images/c4c-web-logo.png)
+You should see: ![Code for Canada logo](/images/cfc-web-logo.png)
 
 > Note: These images won't work when you preview the post in the github editor, this is because of the way our blog is compiled when we publish.
 > In order to preview your post with images change the path to `/images/<your-file-name>`, removing the `/omafra-updates` prefix, just make sure to add it back before publishing
