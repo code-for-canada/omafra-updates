@@ -50,7 +50,7 @@ The aim of the sprint was to reveal pain points across the entire group, as well
 
 Over the course of the day, we ran two exercises - the success spectrum, and value proposition framework - sub-dividing our partners into 3 groups to make it easier for everyone to have their voice heard.
 
-The reception to the event was outstanding, with one of the specialists providing htis tongue-in-cheek commentary, “*I usually don't like anything with sticky notes but this was not a complete waste of my time*”.
+The reception to the event was outstanding, with one of the specialists providing this tongue-in-cheek commentary, “*I usually don't like anything with sticky notes but this was not a complete waste of my time*”.
 
 His colleagues said it was high praise. We’ll take it. 
 
