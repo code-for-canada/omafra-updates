@@ -324,9 +324,8 @@ ol[aria-label="Table of Contents"] {
     }
 
     &::before {
-      content: counters(item, ".") ". ";
+      content: counters(item, ".") ".\00A0\00A0";
       counter-increment: item;
-      margin-right: 5px;
     }
   }
 
