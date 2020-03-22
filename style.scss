@@ -317,6 +317,7 @@ ol[aria-label="Table of Contents"] {
 
   a {
     color: #444;
+    display: flex;
 
     &:hover {
       text-decoration: underline;
@@ -325,6 +326,7 @@ ol[aria-label="Table of Contents"] {
     &::before {
       content: counters(item, ".") ". ";
       counter-increment: item;
+      margin-right: 5px;
     }
   }
 
