@@ -12,22 +12,8 @@ As Code for Canada fellows one our driving goals is to demonstrate what's possib
 ![A poster taped to a wall with the words 'show the thing' prominent in the center and the words 'The strategy is delivery' in small font above and 'gov.uk' below](/omafra-updates/images/show-the-thing.jpg)
 [GDS on Twitter](https://twitter.com/gdsteam/status/771022244969521156){: .image-source}
 
-{: aria-label="Table of Contents"}
-1. [Guiding Principles](#guiding-principles)
-    1. [Work in the open](#work-in-the-open)
-    2. [Document everything](#document-everything)
-    3. [Prioritize value over engagement](#prioritize-value-over-engagement)
-    4. [Support the community](#support-the-community)
-2. [Platform Details](#platform-details)
-    1. [Target Audience](#target-audience)
-    2. [Content Platforms](#content-platforms)
-    3. [Frequency](#frequency)
-3. [Code of Ethics](#code-of-ethics)
-    1. [Be openly accountable](#be-openly-accountable)
-    2. [Be responsive](#be-responsive)
-    3. [Attribute everything](#attribute-everything)
-    4. [Prioritize accessibility](#prioritize-accessibility)
-4. [Contact](#contact)
+1. Table of Contents
+{:toc aria-label="Table of Contents}
 
 ## Guiding Principles
 

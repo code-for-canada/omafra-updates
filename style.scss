@@ -297,7 +297,7 @@ footer {
 }
 
 // Post table of contents styling
-ol[aria-label="Table of Contents"] {
+#markdown-toc {
   background: #EDF6FF;
   border: 1px solid #aaa;
   border-radius: 4px;
@@ -308,7 +308,7 @@ ol[aria-label="Table of Contents"] {
   position: relative;
 
   &::before {
-    content: "Table of Contents";
+    content: "Contents";
     display: block;
     font-size: 20px;
     font-weight: bold;
