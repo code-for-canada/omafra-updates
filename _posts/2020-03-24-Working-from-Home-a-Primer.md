@@ -2,8 +2,8 @@
 layout: post
 title: Working from Home: a Primer
 author: Seyi Taylor
-banner: https://paper-attachments.dropbox.com/s_1DBFF1472352B81E7B4A55F03F5E8298195B4C5F47B0D8CC1F22E626E6F9BC18_1585020124133_work+from+home+post.svg
-excerpt: So we’ve all been asked to work from home. For those of us that don’t have a lot of experience doing this, it can seem very daunting. After all, work forms a major part of who we are - the majority of adults spend most of their waking hours at the office, and our jobs are central to our identities. Between working from home for the first time, partners, children, and pets underfoot, and the elephant in the room - the reason we’re currently all forced to work from home - it’s easy to see how this period can be riddled with anxiety and stress.
+banner: 
+excerpt: So we’ve all been asked to work from home. For those of us that don’t have a lot of experience doing this, it can seem very daunting.
 ---
 
 # Background
