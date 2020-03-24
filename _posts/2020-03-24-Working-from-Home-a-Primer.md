@@ -2,7 +2,7 @@
 layout: post
 title: Working from Home - a Primer
 author: Seyi Taylor
-banner: sprint-0-banner.png
+banner: https://paper-attachments.dropbox.com/s_1DBFF1472352B81E7B4A55F03F5E8298195B4C5F47B0D8CC1F22E626E6F9BC18_1585020124133_work+from+home+post.svg
 excerpt: Our team has been posted to the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA). Specifically, we are working with the Agriculture Development Branch, and focused on crop protection.
 ---
 
