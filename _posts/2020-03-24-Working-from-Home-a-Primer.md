@@ -2,7 +2,7 @@
 layout: post
 title: Working from Home: a Primer
 author: Seyi Taylor
-banner: 
+banner: pens_lg_banner.jpeg
 excerpt: So we’ve all been asked to work from home. For those of us that don’t have a lot of experience doing this, it can seem very daunting.
 ---
 
