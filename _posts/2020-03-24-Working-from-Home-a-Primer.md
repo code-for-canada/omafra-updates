@@ -2,7 +2,7 @@
 layout: post
 title: Working from Home - a Primer
 author: Seyi Taylor
-banner: https://paper-attachments.dropbox.com/s_1DBFF1472352B81E7B4A55F03F5E8298195B4C5F47B0D8CC1F22E626E6F9BC18_1585020124133_work+from+home+post.svg
+banner: work from home post.svg
 excerpt: Our team has been posted to the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA). Specifically, we are working with the Agriculture Development Branch, and focused on crop protection.
 ---
 
@@ -24,7 +24,7 @@ A good thing to remember is to be gentle on yourself. First of all, this is a st
 When you go into the office, you’re aided by the habits of going to work - getting dressed, the commute, the change of environment, getting to your desk etc. For most of us, there are set hours - and most of us underestimate how that structure helps us manage our lives better.
 
 
-![](https://paper-attachments.dropbox.com/s_1DBFF1472352B81E7B4A55F03F5E8298195B4C5F47B0D8CC1F22E626E6F9BC18_1585014052956_image.png)
+![daily rituals](https://paper-attachments.dropbox.com/s_1DBFF1472352B81E7B4A55F03F5E8298195B4C5F47B0D8CC1F22E626E6F9BC18_1585014052956_image.png)
 
 
 Working from home has none of those obvious cues, but finding ways to build some of those into your daily WFH routine can help you be more productive and avoid burnout by reducing the feeling of your work and home lives bleeding into each other without any boundaries.
@@ -84,7 +84,7 @@ As usual, the entire Code for Canada team is happy to speak with you on this or 
 
 
 # Resources
-1. Notion’s Remote Work Wiki - https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f
-2. My two most important work-from-home tips by Sameer Vasta (ODS) - https://www.inthemargins.ca/wfh-tips
-3. Tandem’s Guide to Going Remote - https://www.notion.so/Tandem-s-guide-to-going-remote-f5321849634f4183ad8944ee79f9e0a0
-4. I Spent a Year in Space, and I Have Tips on Isolation to Share - https://www.nytimes.com/2020/03/21/opinion/scott-kelly-coronavirus-isolation.html
+1. [Notion’s Remote Work Wiki](https://www.notion.so/Remote-work-wiki-1b21ef5501714fffa9f5c5c25677371f)
+2. [My two most important work-from-home tips by Sameer Vasta (ODS)](https://www.inthemargins.ca/wfh-tips)
+3. [Tandem’s Guide to Going Remote](https://www.notion.so/Tandem-s-guide-to-going-remote-f5321849634f4183ad8944ee79f9e0a0)
+4. [I Spent a Year in Space, and I Have Tips on Isolation to Share](https://www.nytimes.com/2020/03/21/opinion/scott-kelly-coronavirus-isolation.html)
