@@ -112,6 +112,21 @@ For now banners must be hosted in the `images` folder and cannot be external pho
 
 Make sure to only include the file name in the post data, don't include `/omafra-updates/images/` like you would for a normal image
 
+## Adding a Table of Contents
+
+You can add an auto-generated Table of Contents to your posts with just a couple lines in your markdown file.
+
+```
+1. Contents
+{:toc}
+```
+
+Add these two lines anywhere you want the ToC to appear (my preferance is right after the intro paragraph) and when the page is rendered your ToC will be auto-magically populated with all of the headers in your post.
+
+![A screenshot of the auto-generated table of contents](/images/toc-screenshot.png)
+
+Make sure you write informative headers!
+
 <br />
 
 # Jekyll Now

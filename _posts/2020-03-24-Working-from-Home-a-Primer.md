@@ -6,11 +6,12 @@ banner: work from home post.svg
 excerpt: Our team has been posted to the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA). Specifically, we are working with the Agriculture Development Branch, and focused on crop protection.
 ---
 
-# Background
-
 So we’ve all been asked to work from home. For those of us that don’t have a lot of experience doing this, it can seem very daunting. After all, work forms a major part of who we are - the majority of adults spend most of their waking hours at the office, and our jobs are central to our identities. Between working from home for the first time, partners, children, and pets underfoot, and the elephant in the room - the reason we’re currently all forced to work from home - it’s easy to see how this period can be riddled with anxiety and stress.
 
 The aim of this guide is to provide you with tips on working better from home for as long as we’ll have to.
+
+1. Contents
+{:toc}
 
 
 # Things to remember
