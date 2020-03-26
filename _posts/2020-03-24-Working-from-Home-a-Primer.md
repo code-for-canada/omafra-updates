@@ -79,7 +79,7 @@ Many people struggle with a great video call setup - and end up struggling with 
 
 # In conclusion
 
-Some speculate remote is the future of work. Regardless of whether you agree or not, you should consider working from home as a great opportunity. Given time, you might find that you will do some of your best home from the corner of your dining table. 
+Some speculate remote is the future of work. Regardless of whether you agree or not, you should consider working from home as a great opportunity. Given time, you might find that you will do some of your best work from the corner of your dining table. 
 
 As usual, the entire Code for Canada team is happy to speak with you on this or any other related topics. Our contact details are at the end of this post.
 
@@ -89,3 +89,12 @@ As usual, the entire Code for Canada team is happy to speak with you on this or 
 2. [My two most important work-from-home tips by Sameer Vasta (ODS)](https://www.inthemargins.ca/wfh-tips)
 3. [Tandem’s Guide to Going Remote](https://www.notion.so/Tandem-s-guide-to-going-remote-f5321849634f4183ad8944ee79f9e0a0)
 4. [I Spent a Year in Space, and I Have Tips on Isolation to Share](https://www.nytimes.com/2020/03/21/opinion/scott-kelly-coronavirus-isolation.html)
+
+# Contact
+
+## Code for Canada fellows
+[Rola Kuidir (UX Designer)](mailto:rola.kuidir@codefor.ca)
+<br>
+[Seyi Taylor (Product Manager)](mailto:seyi.taylor@codefor.ca)
+<br>
+[Zola McAdie (Software Developer)](mailto:zola.mcadie@codefor.ca)
