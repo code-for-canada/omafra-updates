@@ -1,17 +1,3 @@
-{% assign today = 'now' | date: '%s' %}
-{% assign published = include.post.date | date: '%s' %}
-{% assign mill_diff = today | minus: published %}
-{% assign days_diff = mill_diff | divided_by: 86400 %}
-{% assign months_diff = days_diff | divided_by: 30 %}
-{% assign years_diff = months_diff | divided_by: 12 %}
-{% if years_diff > 0 %}
-  {% capture date_ago %}{{ years_diff }} year{% if years_diff != 1 %}s{% endif %} ago{% endcapture %}
-{% elsif months_diff > 0 %}
-  {% capture date_ago %}{{ months_diff }} month{% if months_diff != 1 %}s{% endif %} ago{% endcapture %}
-{% elsif days_diff > 0 %}
-  {% capture date_ago %}{{ days_diff }} day{% if days_diff != 1 %}s{% endif %} ago{% endcapture %}
-{% else %}
-  {% assign date_ago = 'today' %}
-{% endif %}
-
-<div class="post-author">by {{ include.post.author }} &nbsp;•&nbsp; {{ date_ago }}</div>
+<div class="post-author">
+  by {{ include.post.author }} &nbsp;•&nbsp; <span class="post-date" data-date="{{ include.post.date | date: '%s' }}"></span>
+</div>
