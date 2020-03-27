@@ -87,3 +87,8 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-cayman
+
+collections:
+  documents:
+    output: true
+    permalink: /:collection/:name
