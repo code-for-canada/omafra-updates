@@ -1,0 +1,75 @@
+<script>
+  var getFromNowString = date => {
+    var today = Date.now()
+    var diff = today - (date * 1000)
+    var daysDiff = Math.trunc(diff / 86400000)
+    var weeksDiff = Math.trunc(daysDiff / 7)
+    var monthsDiff = Math.trunc(daysDiff / 30)
+    var yearsDiff = Math.trunc(daysDiff / 365)
+    
+    if (yearsDiff > 0) {
+      return `${ yearsDiff } year${ yearsDiff != 1 ? "s" : "" } ago`
+    } else if (monthsDiff > 0) {
+      return `${ monthsDiff } month${ monthsDiff != 1 ? "s" : "" } ago`
+    } else if (weeksDiff > 0) {
+      return `${ weeksDiff } week${ weeksDiff != 1 ? "s" : "" } ago`
+    } else if (daysDiff > 0) {
+      return `${ daysDiff } day${ daysDiff != 1 ? "s" : "" } ago`
+    } else {
+      return "today"
+    }
+  }
+
+  var dates = document.getElementsByClassName("post-date")
+
+  Array.from(dates).forEach(function(element) {
+    element.textContent = getFromNowString(element.dataset.date)
+  });
+</script>
+
+<script>
+  var flipCards = document.getElementsByClassName("flip-card")
+  
+  var flipClassFilter = function(cls) { return cls.slice(0, 4) == "flip" }
+  var isClassFlipCard = function(cls) { return cls == "flip-card" }
+  
+  Array.from(flipCards).forEach(function (element) {
+    var flipClasses = Array.from(element.classList).filter(flipClassFilter)
+    element.classList.remove(...flipClasses)
+    var flipCardIndex = flipClasses.findIndex(isClassFlipCard)
+    flipClasses.splice(flipCardIndex, 1)
+    
+    var elementId = element.id
+    element.id = ""
+
+    var container = document.createElement("div")
+    container.classList.add(...flipClasses, "flip-card-container")
+    container.id = elementId
+
+    var innerContainer = document.createElement("div")
+    innerContainer.classList.add("flip-card-inner-container")
+
+    element.classList.add("flip-card-front")
+
+    var cardBack
+    if (element.nextSibling.classList && element.nextSibling.classList.contains("flip-card-back")) {
+      cardBack = element.nextSibling
+      cardBack.parentNode.removeChild(cardBack)
+    } else {
+      cardBack = document.createElement("div")
+      cardBack.classList.add("flip-card-back")
+      container.classList.add("flip-transparent")
+    }
+
+    element.parentNode.replaceChild(container, element)
+    container.appendChild(innerContainer)
+    innerContainer.appendChild(element)
+    innerContainer.appendChild(cardBack)
+
+    var cardHeight = element.offsetHeight
+    if (cardBack.offsetHeight > cardHeight) {
+      cardHeight = cardBack.offsetHeight
+    }
+    container.style.height = cardHeight + "px"
+  })
+</script>

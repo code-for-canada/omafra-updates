@@ -22,6 +22,10 @@ body {
   font: 18px/1.4 $roboto;
   color: $darkGray;
   line-height: 1.7;
+
+  @include mobile {
+    padding-top: 40px;
+  }
 }
 
 .container {
@@ -160,6 +164,7 @@ img {
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
+    border-bottom: none;
     text-align: center;
   }
 }
@@ -217,11 +222,15 @@ nav {
   font-family: $helveticaNeue;
   font-size: 18px;
 
+  // @include mobile {
+  //   float: none;
+  //   margin-top: 9px;
+  //   display: block;
+  //   font-size: 16px;
+  // }
+
   @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+    display: none;
   }
 
   a {
@@ -230,11 +239,75 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+  }
+}
 
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
+#mobile-nav-menu {
+  display: none;
+
+  @include mobile {
+    display: block;
+    margin-top: 0;
+    position: fixed;
+    top: 39px;
+    right: 0;
+
+    nav {
+      background: white;
+      border-bottom: 1px solid $lightGray;
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      margin-top: 0;
+      padding: 0 20px 10px;
+      width: 100vw;
     }
+  }
+}
+
+.mobile-nav-bar {
+  display: none;
+
+  background: white;
+  border-bottom: 1px solid $lightGray;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+
+  @include mobile {
+    display: block;
+  }
+}
+
+.mobile-nav-overlay {
+  display: none;
+
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  @include mobile {
+    body.nav-open & {
+      display: block;
+    }
+  }
+}
+
+.mobile-nav-toggle {
+  color: $darkGray;
+  display: none;
+  font-family: $helveticaNeue;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+
+  @include mobile {
+    display: inline-block;
   }
 }
 
@@ -351,3 +424,4 @@ footer {
 @import "logos";
 @import "post-author";
 @import "page-banner";
+@import "flip-card";

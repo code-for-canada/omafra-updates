@@ -18,6 +18,15 @@
   </head>
 
   <body>
+    <div class="mobile-nav-overlay" onclick="document.getElementById('mobile-nav-menu').classList.toggle('flip')"></div>
+    <div class="mobile-nav-bar">
+      <button class="mobile-nav-toggle" onclick="document.getElementById('mobile-nav-menu').classList.toggle('flip')">MENU</button>
+      <nav class="flip-card flip-down flip" id="mobile-nav-menu">
+        <a href="{{ site.baseurl }}/">Blog</a>
+        <a href="{{ site.baseurl }}/about">About</a>
+        <a href="{{ site.baseurl }}/calendar">Calendar</a>
+      </nav>
+    </div>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -53,6 +62,6 @@
     </div>
 
     {% include analytics.html %}
-    {% include post-date-script.html %}
+    {% include scripts.html %}
   </body>
 </html>
