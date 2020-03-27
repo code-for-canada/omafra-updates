@@ -26,3 +26,9 @@ $roboto: Roboto, sans-serif;
     @content;
   }
 }
+
+@mixin full {
+  @media screen and (max-width: 750px) {
+    @content;
+  }
+}
