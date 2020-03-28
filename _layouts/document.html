@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="document">
+  <h1 class="title">{{ page.title }}</h1>
+  {% include post-author.html post = page %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}{% if page.author %}, by {{ page.author }}{% endif %}
+  </div>
+
+  {% include disqus.html %}
+</article>

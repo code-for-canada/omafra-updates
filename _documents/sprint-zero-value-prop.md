@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: document
 title: Sprint Zero Value Proposition Summary
 author: Zola McAdie
+date: March 20, 2020
 ---
 
 *The Value Proposition Canvas is a tool which can help ensure that a product or service is positioned around what the customer values and needs.*
@@ -10,6 +11,8 @@ author: Zola McAdie
 
 1. contents
 {:toc}
+
+# Facilitation
 
 In our activity we focused on the half of the value proposition canvas that identifies user Jobs, Gains, and Pains. This let us see how our team members and stakeholders conceptualized the work our users need to do, the impact that work has, and the challenges they face doing it.
 

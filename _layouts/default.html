@@ -22,10 +22,9 @@
     <div class="mobile-nav-bar">
       <button class="mobile-nav-toggle" onclick="document.getElementById('mobile-nav-menu').classList.toggle('flip')">MENU</button>
       <nav class="flip-card flip-down flip" id="mobile-nav-menu">
-        <a href="{{ site.baseurl }}/">Blog</a>
-        <a href="{{ site.baseurl }}/about">About</a>
-        <a href="{{ site.baseurl }}/calendar">Calendar</a>
-        <a href="{{ site.baseurl }}/documents">Documents</a>
+        {% for link in site.data.nav-links %}
+          <a href="{{ site.baseurl }}/{{ link.slug}}">{{ link.label }}</a>
+        {% endfor %}
       </nav>
     </div>
     <div class="wrapper-masthead">
@@ -39,10 +38,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/calendar">Calendar</a>
-            <a href="{{ site.baseurl }}/documents">Documents</a>
+            {% for link in site.data.nav-links %}
+              <a href="{{ site.baseurl }}/{{ link.slug}}">{{ link.label }}</a>
+            {% endfor %}
           </nav>
         </header>
       </div>

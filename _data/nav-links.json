@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "",
+    "label": "Blog"
+  },
+  {
+    "slug": "documents",
+    "label": "Documents"
+  },
+  {
+    "slug": "about",
+    "label": "About"
+  },
+  {
+    "slug": "calendar",
+    "label": "Calendar"
+  }
+]

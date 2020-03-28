@@ -1,0 +1,5 @@
+.document {
+  h1:not(.title) {
+    border-bottom: 1px solid $darkerGray;
+  }
+}
