@@ -2,7 +2,7 @@
 layout: document
 title: Sprint Zero Success Spectrum Summary
 author: Zola McAdie
-date: March 25, 2020
+date: 2020-03-25
 ---
 
 *A Success Spectrum helps teams align expectations for the project and define success and failure in a concrete way on a spectrum instead of a binary pass/fail. This allows us to prioritize work clearly and create a roadmap for achieving success.*

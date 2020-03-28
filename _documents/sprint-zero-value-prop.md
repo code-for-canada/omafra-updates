@@ -2,7 +2,7 @@
 layout: document
 title: Sprint Zero Value Proposition Summary
 author: Zola McAdie
-date: March 20, 2020
+date: 2020-03-20
 ---
 
 *The Value Proposition Canvas is a tool which can help ensure that a product or service is positioned around what the customer values and needs.*
