@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="posts">
-  {% for document in site.documents %}
+  {% assign sorted = site.documents | reverse %}
+  {% for document in sorted %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ document.url }}">
         <h1>{{ document.title }}</h1>

@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Sprint Zero Success Spectrum Summary
+title: Sprint Zero Success Spectrum Analysis
 author: Zola McAdie
 date: 2020-03-25
 ---

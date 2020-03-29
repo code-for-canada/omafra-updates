@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Sprint Zero Value Proposition Summary
+title: Sprint Zero Value Proposition Analysis
 author: Zola McAdie
 date: 2020-03-20
 ---
