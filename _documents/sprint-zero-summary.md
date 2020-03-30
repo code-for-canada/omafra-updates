@@ -144,40 +144,60 @@ In this activity participants were asked to envision what success and failure mi
 
 Key failure scenarios identified across all three groups centered around a lack of sustainability for a product solution, a product solution that failed to address underlying challenges, and a lack of buy-in for the project from stakeholders and internal organizations.
 
-**Identified Criteria and Scenarios**
-* Red Tape
-* Solution Scope
-* Product Sustainability
-* Stakeholder Buy-in
+* ##### Red Tape
+Internal organizations within the ministry have a lot of opportunities to block the project if their support is not gained early on in the process. The project must seek support of these internal organizations and other stakeholders in order to navigate the red tape that exists in government.
+
+* ##### Solution Scope
+A product solution that does not address underlying challenges that staff face would result in wasted effort and resources. Some key scenarios that could lead to this include trying to include too many features, scoping the product too tightly to one use case, and building a solution that increases complexity of projects or is simply too difficult for staff to use.
+
+* ##### Product Sustainability
+Sustainability of a product solution is critical to its overall success. A product would be considered a failure if the cost to maintain the solution was prohibitive or if the system could not be supported by internal staff either due to a lack of training, technical skills, or infrastructure.
+
+* ##### Stakeholder Buy-in
+A critical point of failure identified for the project was centered around stakeholder behaviour. Crucial to long-term success is the buy-in of both front-line staff and upper management. For upper management the key failure scenario centered around a lack of support for the project. For front-line staff failure largely looked like a lack of engagement leading to a lack of use for any new product solution.
+
 
 #### Minimum Viable Success
 *What are the minimum criteria for this to be successful?*
 
 Key criteria for minimum viable success were largely centered around a database solution that allowed for easy standardization and management of data. Minimum success also hinged on staff coordination and ease of access.
 
-**Identified Criteria**
-* Data Management Solution
-* Staff Buy-in
+* ##### Data Management
+A product solution as identified by every group had to include a simple and effective means of data management. Somewhere staff could store and easily access data that facilitated sharing and collaboration between staff and program areas.
+
+* ##### Staff Buy-in
+Engagement from staff came up across the board. At a minimum success level participants identified buy-in as an engagement from staff both in the product solution being developed but also in the process of planning and building it as well. Offering input was flagged as a critical criterion.
+
 
 #### Target Success
 *If we work well and don’t hit any roadblocks what can we achieve?*
 
 Target success criteria identified a database product solution that centralised data, introduced some basic public facing components, and automated some simple workflows. This product must also be easily extendable to adapt to future needs.
 
-**Identified Criteria**
-* Centralised Database
-* Sustainability
+* ##### Database
+A database product solution outlined at this level of success included features that allowed sharing of basic data with the public, automated basic data visualisations and collection, and was easy for staff to access.
+
+* ##### Sustainability
+A product solution developed would also need to be easily adapted to future data needs to be considered as target success. This means that the data structures must be easy to update and that the product must be simple for future tech teams to interpret and improve.
+
 
 #### Epic Success
 *In a perfect world what would be the outcome?*
 
 Epic success for the project was defined broadly as an extension of the database product features and scope. Key features included automated analysis and visualisation workflows, a public facing dashboard, and real-time prediction capacity. Another key criterion was the internal capacity for software development at the ministry or branch level.
 
-**Identified Criteria**
-* Automated Workflows
-* Public Data Portal
-* Real-time Prediction
-* Internal Development Capacity
+* ##### Automated Workflows
+A key epic success criterion was the automation of complex data workflows. These were primarily scoped to analysis and visualisation of real-time data. Users of the platform would be able to easily define these workflows and as data was added to the database the outputs of these workflows would be automatically updated.
+
+* ##### Public Data Portal
+A critical part of the work users need to accomplish is the distribution of information. An epic outcome for this project would help solve that, giving users the ability to make data visualisations and other types of reports visible to an external audience.
+
+* ##### Real-time Prediction
+A particularly sticky aspect of the data analysis users may have to do is event forecasting and prediction. A product solution at the epic success level would allow for the automation of forecasting models with flexible outputs and parameters and the ability to send alerts to staff and/or the public when critical thresholds are met.
+
+* ##### Internal Development Capacity
+Separate from any product solution that may be developed for this project was the idea of capacity building. This was flagged as a critical marker of sustainability for the project. Fundamentally the solution outlined was the presence of an individual or team that could lead and coordinate software development and IT projects within ADB or the ministry.
+
 
 ### Roadmap
 *Okay, what does this look like?*
