@@ -1,3 +1,5 @@
+---
+---
 <script>
   var getFromNowString = date => {
     var today = Date.now()
@@ -71,5 +73,19 @@
       cardHeight = cardBack.offsetHeight
     }
     container.style.height = cardHeight + "px"
+  })
+</script>
+
+<script>
+  var links = Array.from(document.getElementsByTagName("a"))
+  links = links.filter(function(link) {
+    var urlReg = /^\{{ site.baseurl }}\/?$/
+    return !(
+      ["ARTICLE", "NAV"].includes(link.parentNode.tagName)
+      || urlReg.test(link.getAttribute("href"))
+    )
+  })
+  links.forEach(function(link) {
+    link.setAttribute("target", "_blank")
   })
 </script>
