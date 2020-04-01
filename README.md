@@ -32,7 +32,7 @@ e.g.
 layout: post
 title: First Month at OMAFRA
 author: Seyi Tayor
-banner: sprint-0-banner.png
+banner: sprint-0-banner.jpg
 ---
 ```
 
@@ -105,7 +105,7 @@ I've added some special styling rules for banner images at the top of a post. If
 layout: post
 title: First Month at OMAFRA
 author: Seyi Tayor
-banner: sprint-0-banner.png
+banner: sprint-0-banner.jpg
 ---
 ```
 For now banners must be hosted in the `images` folder and cannot be external photos

@@ -2,7 +2,7 @@
 layout: post
 title: First Month at OMAFRA
 author: Seyi Taylor
-banner: sprint-0-banner.png
+banner: sprint-0-banner.jpg
 excerpt: Our team has been posted to the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA). Specifically, we are working with the Agriculture Development Branch, and focused on crop protection.
 ---
 ## Background
