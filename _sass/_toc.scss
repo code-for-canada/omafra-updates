@@ -1,0 +1,84 @@
+// Post table of contents styling
+#markdown-toc {
+  background: #efefef;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  counter-reset: item;
+  list-style: none;
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding: 30px 70px 30px;
+  position: relative;
+
+  // &::before {
+  //   content: "Contents";
+  //   display: block;
+  //   font-size: 20px;
+  //   font-weight: bold;
+  //   margin-bottom: 20px;
+  // }
+
+  &.collapse {
+    .toc-header {
+      margin-bottom: 0;
+
+      &::before {
+        bottom: 3px;
+        transform: scale(1, -1);
+      }
+    }
+
+    > li {
+      height: 0;
+      margin: 0;
+      position: relative;
+      top: 50px;
+    }
+  }
+
+  .toc-header {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    position: relative;
+
+    &::before {
+      bottom: -3px;
+      content: "⌃";
+      display: block;
+      font-size: 20px;
+      left: -70px;
+      position: absolute;
+      text-align: center;
+      width: 70px;
+    }
+  }
+
+  a {
+    color: #444;
+    display: flex;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &::before {
+      content: counters(item, ".") "\00A0\00A0";
+      counter-increment: item;
+    }
+  }
+
+  > li > a::before {
+    content: counters(item, ".") ".\00A0\00A0";
+  } 
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  ol {
+    counter-reset: item;
+    list-style: none;
+  }
+}

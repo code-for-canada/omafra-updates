@@ -369,53 +369,6 @@ footer {
   width: fit-content;
 }
 
-// Post table of contents styling
-#markdown-toc {
-  background: #efefef;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  counter-reset: item;
-  list-style: none;
-  margin-bottom: 30px;
-  padding: 30px 70px 30px;
-  position: relative;
-
-  &::before {
-    content: "Contents";
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  a {
-    color: #444;
-    display: flex;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &::before {
-      content: counters(item, ".") "\00A0\00A0";
-      counter-increment: item;
-    }
-  }
-
-  > li > a::before {
-    content: counters(item, ".") ".\00A0\00A0";
-  } 
-
-  li {
-    margin-bottom: 5px;
-  }
-
-  ol {
-    counter-reset: item;
-    list-style: none;
-  }
-}
-
 .float-left {
   float: left;
 
@@ -443,3 +396,4 @@ footer {
 @import "flip-card";
 @import "about";
 @import "document";
+@import "toc";

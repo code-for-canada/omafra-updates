@@ -1,4 +1,5 @@
 <script>
+  // change text of all elements with class 'post-date' to human readable 'x ago' format
   var getFromNowString = date => {
     var today = Date.now()
     var diff = today - (date * 1000)
@@ -28,6 +29,7 @@
 </script>
 
 <script>
+  // get all elements with class 'flip-card' and build flip card html structure
   var flipCards = document.getElementsByClassName("flip-card")
   
   var flipClassFilter = function(cls) { return cls.slice(0, 4) == "flip" }
@@ -75,15 +77,33 @@
 </script>
 
 <script>
+  // apply target="_blank" to all links other than navigation links
   var links = Array.from(document.getElementsByTagName("a"))
   links = links.filter(function(link) {
-    var urlReg = /^\{{ site.baseurl }}\/?$/
+    var baseUrlReg = /^\{{ site.baseurl }}\/?$/
+    var headerReg = /^#.+/
     return !(
       ["ARTICLE", "NAV"].includes(link.parentNode.tagName)
-      || urlReg.test(link.getAttribute("href"))
+      || baseUrlReg.test(link.getAttribute("href"))
+      || headerReg.test(link.getAttribute("href"))
     )
   })
   links.forEach(function(link) {
     link.setAttribute("target", "_blank")
   })
+</script>
+
+<script>
+  // make table of contents collapsible and add header
+  var toc = document.getElementById("markdown-toc")
+
+  var tocHeader = document.createElement("h2")
+  tocHeader.classList.add("toc-header")
+  tocHeader.innerText = "Contents"
+
+  tocHeader.onclick = function () {
+    toc.classList.toggle("collapse")
+  }
+
+  toc.insertBefore(tocHeader, toc.firstChild)
 </script>
