@@ -15,15 +15,20 @@ As the name implies a roadmap is a clear path where something moves through the 
 
 For example, in our project we initially defined a roadmap with five phases.
 
+{: align="center" }
 ![Title, Data Roadmap, over five sections that each point to the next section. Sections are labeled collection, reporting, aggregation, analysis, and output](/omafra-updates/images/data_roadmap_simple.png)
+<br><br>
 
 This gave a clear path that we expected the data to follow from being collected all the way to the outputs generated from analysis of this data. The first two or three times we filled out this roadmap everything went smoothly. Occasionally we had to massage something to fit within the defined phases but generally it served as a useful tool to take a broad view of our projects data.
 
 As we broadened the scope of our data however and began to define more roadmaps with this format the limitations became clear. Not all data moved in clean lines from one phase to another. Many phases were repeated, some steps did not clearly fit within a phase, and some data never went through certain phases at all.
 
 On top of that the phases we had defined had some pretty clear issues themselves. In a review of the roadmap and the process of defining the phases the data went through we identified some key flaws in the system.
+<br><br>
 
+{: align="center" }
 ![The tite data roadmap over five sections, collection, reporting, aggregation, analysis, and output. Each section points to the next. A number of notes are made with arrows pointing to different sections. The notes are: Implies strict order (points to all stages), These are the same step (points to collection, reporting), This is just the transition from collection to analysis (points to aggregation), This is a result of analysis not a step itself (points to output), and Missing step sharing (points to gap after diagram)](/omafra-updates/images/roadmap_flaws.png)
+<br><br>
 
 The most important flaw and the one that had the largest impact on the value of the analysis was that a roadmap by definition implies a strict order. When designing processes for collecting and using data it’s easy to assume that it will move nicely and predictably through these well-defined stages but in reality data is messy. Often being collected and analysed over and over again with many overlapping phases.
 
@@ -34,7 +39,9 @@ In trying to answer these questions (and reading the article [The Fiction of the
 ## Defining the Data Lifecycle
 Addressing the challenges of a strict data roadmap led us to a lifecycle diagram that allowed for more flexibility in the data structures that we were identifying.
 
-![The title Data Lifecycle, below which are three boxes reading collect, analyse, and share within a larger box labeled store. A note pointing to the three boxes says Happening Concurrently](/omafra-updates/images/lifecycle-noted.png)
+{: align="center" }
+![The title Data Lifecycle, below which are three boxes reading collect, analyse, and share within a larger box labeled store. A note pointing to the three boxes says Happening Concurrently](/omafra-updates/images/lifecycle_noted.png)
+<br><br>
 
 In response to the flaws identified with the roadmap our data lifecycle diagram combined the 5 phases in the roadmap into just two processes, collection, reporting, and aggregation were combined into Collect and analysis and output were condensed into Analysis. The lifecycle diagram also adds a third process titled Share.
 
