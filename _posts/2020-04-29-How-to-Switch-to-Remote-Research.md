@@ -4,20 +4,20 @@ title: "How to Switch to Remote Research: 5 Steps for a Smooth Transition"
 author: Rola Kuidir
 banner: remote-research_dan-dimmock_banner.jpg
 ---
-COVID-19 has caused many changes to our plans, our lifestyles, and of course our work. Our team was in the middle of our project’s discovery phase when social distancing began. This unexpected circumstance forced us to reevaluate our research plan, so we decided to share our journey and some of our learnings.
+COVID-19 has caused many changes to our plans, our lifestyles, and of course our work. Our team was in the middle of our project’s discovery phase when social distancing began. This unexpected circumstance forced us to re-evaluate our research plan, so we decided to share our journey and some of our learnings.
 
 ## What is remote research?
-Remote research is any research in which participants and researchers do not interact in-person, face-to-face. It is typically conducted over the phone or using video-conferencing or screen sharing technologies.
+Remote research is any research in which participants and researchers do not interact in-person, face-to-face. It is typically conducted via a computer or a phone, allowing use of video-conferencing or screen sharing technologies.
 
 ## 1- Find your silver lining 
 There is always a positive side to every situation. For our project, switching from in-field interviews to remote meetings meant that we could schedule multiple interviews on the same day. Saving time while working on a project with a tight timeline was a win worth acknowledging. Also, our plan was always to do inclusive research and this change helped us look at things from a new perspective and include more users.
 
-## 2- Acknowledge your new challenges
+## 2- Acknowledge your challenges
 It’s important to acknowledge both the new challenges you face as a researcher and the new challenges your users are facing. 
 
 When switching to remote research the first question was “Will we be able to get the same results?” Some users might feel more comfortable speaking in person than over the phone. Video meetings seemed like a good in between, but not all of our users were comfortable with that option. We realized we would have to consider different tools for different users. 
 
-We also knew that some of the Growers and Crop Consultants that we would be speaking to work in areas with poor internet access or cell coverage. To be prepared for all of our users' needs, we knew we needed to have a plan B in case something failed.
+We also knew that some of the Growers and Crop Consultants that we would be speaking to work in areas with poor internet access or cell coverage. To be prepared for all of our users' challenges, we needed to have a plan B in case something failed.
 
 Moreover, being new to the agricultural sector, we were relying on in-field interviews to help better understand the tools and processes used by our users. This changed the structure of our interviews, adding more specific follow-up questions after the mostly open-ended questions we had originally written, to make sure we collected as much detail as possible.
 
@@ -40,7 +40,7 @@ So far, you’ve taken a step back and thought through the pros and cons of your
 • Ask your users to use their headphones. Holding the phone for half an hour or longer will hurt the users’ arm and they might hurry to end the conversation for that reason. It will also help you to get rid of the echo that a speaker may cause, so you can have a noiseless interview and a good quality for your recording 
 
 ## 4- Test, test and test some more
-Write a list of the tools you will need and start testing to see what best suits you. Here are some of the tools that our team used:
+Write a list of the tools you will need and start testing to see what best suits you and your users. Here are some of the tools that our team used:
 
 • [Zoom](https://zoom.us/) and [Google Hangouts](https://hangouts.google.com/) for video meetings
 
