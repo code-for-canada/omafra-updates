@@ -2,7 +2,7 @@
 layout: post
 title: "How to Switch to Remote Research: 5 Steps for a Smooth Transition"
 author: Rola Kuidir
-banner: remote-research_dan-dimmock_banner
+banner: remote-research_dan-dimmock_banner.jpg
 ---
 COVID-19 has caused many changes to our plans, our lifestyles, and of course our work. Our team was in the middle of our project’s discovery phase when social distancing began. This unexpected circumstance forced us to reevaluate our research plan, so we decided to share our journey and some of our learnings.
 
@@ -23,7 +23,6 @@ Moreover, being new to the agricultural sector, we were relying on in-field inte
 
 {: align="center" }
 ![Table with 2 rows, Under the first label Original Questions, it containes two questions, Do you collect (crop or growing method) data? If yes, Do you collect the data?, Under the second label Revised Questions, it containes the same two questions mentioned previously with 4 more follow-up questions, What tools/devices do you use to collect the data? What data do you collect? How aften do you collect the data? Who usually collects the data?](/omafra-updates/images/questions_example.png)
-<br><br>
 
 ## 3- Adjust your research plan
 So far, you’ve taken a step back and thought through the pros and cons of your new situation. Now, you are ready to make changes to your research plan. Your research goals shouldn’t change but your method and approach should. Here are some suggestions:
@@ -47,11 +46,11 @@ Write a list of the tools you will need and start testing to see what best suits
 
 • Work conference line and [Google Hangouts](https://hangouts.google.com/) for phone interviews
 
-• [Quicktime Player] (https://support.apple.com/downloads/quicktime) and [Otter] (https://otter.ai/) for audio recording
+• [Quicktime Player](https://support.apple.com/downloads/quicktime) and [Otter](https://otter.ai/) for audio recording
 
-• [Otter] (https://otter.ai/) for converting audio to text and for storing audio recordings 
+• [Otter](https://otter.ai/) for converting audio to text and for storing audio recordings 
 
-• [Calendly] (https://calendly.com/) for scheduling meetings. It’s a great tool as you can sync it to your Google, Outlook, Office 365 or iCloud calendar; you can send one link to all of your users
+• [Calendly](https://calendly.com/) for scheduling meetings. It’s a great tool as you can sync it to your Google, Outlook, Office 365 or iCloud calendar; you can send one link to all of your users
 
 Although we tested all of our tools, we made sure to include dial-in phone numbers in case we ran into any technical difficulties. Also, don’t forget to send your users clear instructions ahead of time on how to install a certain app if needed. 
 
@@ -64,6 +63,7 @@ Don’t get too attached to your research plan; it is meant to be a living docum
 3. Change your research method and approach
 4. Find the right tools for your research by testing them first
 5. Be open to updating your research plan 
+<br><br>
 
 {: align="center" }
 ![Title, Switching to remote research workflow, over five sections that each point to the next section. Sections are labeled find your silver lining, Acknowledge your challenges, adjust your research plan, test your tools, and conduct remote interviews, last 4 sections connect to the first section in a dotted arrow in case more changes are needed, to show that you will need to repeat the process](/omafra-updates/images/remote-research_workflow.jpg)
@@ -71,3 +71,4 @@ Don’t get too attached to your research plan; it is meant to be a living docum
 
 ## Resources
 [The Hidden Benefits of Remote Research](https://www.uxbooth.com/articles/hidden-benefits-remote-research/) 
+<br><br>
