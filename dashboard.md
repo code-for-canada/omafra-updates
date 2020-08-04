@@ -4,9 +4,7 @@ title: Progress Dashboard
 permalink: /dashboard/
 ---
 
-<p>
-  Lorem ipsum sit dolor met.
-</p>
+<p>This dashboard shows progress on the Ceres alpha development project. It will continue to update itself as we work.</p>
 <hr />
 <h2>Overall Progress (Weighted)</h2>
 <p>Project progress weighted by estimated story size. Legend in chart.</p>
