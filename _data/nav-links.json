@@ -14,5 +14,9 @@
   {
     "slug": "calendar",
     "label": "Calendar"
+  },
+  {
+    "slug": "dashboard",
+    "label": "Dashboard"
   }
 ]
