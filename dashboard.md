@@ -21,3 +21,15 @@ permalink: /dashboard/
 <h2>Estimated Progress vs Actual Progress</h2>
 <p>Tracking actual progress vs estimated progress. If the actual progress line is above the ideal progress line, we're ahead of schedule. If it is beneath, we're behind schedule.</p>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrdhfTAnTAs6TJ4zTa8gX8x3dLVQ9Z66IGsOXvriemJwKYxxtLlZSV95yuAfDFHjv5a3cIRs27hytP/pubchart?oid=1077911614&amp;format=interactive" width="1200" height="400"></iframe>
+<hr/>
+<br/>
+<hr/>
+<h1>Governance Evaluation</h1>
+<h2>Overall Evaluation</h2>
+<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the average scoring for the past 4 sprints.</p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvaHSTjmqMJikC-HO4kjVUpzdxq4b0xgE4tmYZ4w-ZAsu8iYbQGkSOggfNJEtFM5sxzvcD0QHhdUe/pubchart?oid=43784042&amp;format=interactive" width="1200" height="400"></iframe>
+<hr/>
+<h2>Specific Evaluation</h2>
+<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the average scoring for the past 4 sprints.</p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvaHSTjmqMJikC-HO4kjVUpzdxq4b0xgE4tmYZ4w-ZAsu8iYbQGkSOggfNJEtFM5sxzvcD0QHhdUe/pubchart?oid=1895171414&amp;format=interactive" width="1200" height="400"></iframe>
+<hr/>
