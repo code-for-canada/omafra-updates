@@ -26,10 +26,18 @@ permalink: /dashboard/
 <hr/>
 <h1>Governance Evaluation</h1>
 <h2>Overall Evaluation</h2>
-<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the average scoring for the past 4 sprints.</p>
+<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the average scoring per sprint.</p>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvaHSTjmqMJikC-HO4kjVUpzdxq4b0xgE4tmYZ4w-ZAsu8iYbQGkSOggfNJEtFM5sxzvcD0QHhdUe/pubchart?oid=43784042&amp;format=interactive" width="1200" height="400"></iframe>
 <hr/>
 <h2>Specific Evaluation</h2>
-<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the average scoring for the past 4 sprints.</p>
+<p>Every sprint, the Core Team evaluates the work done and issues scores based on this. Here's the detailed scoring per sprint. Criteria assessed are:</p>
+<ul>
+  <li>Progress of Primary Objective</li>
+  <li>Progress of Secondary Objective</li>
+  <li>Progress of Project Objectives</li>
+  <li>Value Added to End-users</li>
+  <li>Value Added to Stakeholders</li>
+  <li>Quality of Work</li>
+</ul>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvaHSTjmqMJikC-HO4kjVUpzdxq4b0xgE4tmYZ4w-ZAsu8iYbQGkSOggfNJEtFM5sxzvcD0QHhdUe/pubchart?oid=1895171414&amp;format=interactive" width="1200" height="400"></iframe>
 <hr/>
